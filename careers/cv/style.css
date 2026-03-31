@@ -248,6 +248,24 @@ body {
     font-size: 1.5rem;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px 25px;
+    background-color: #ffd6ff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 70px;
+    transition: 0.3s;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #415365;
+    /* تأثير عند مرور الماوس */
+}
+
 .about-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, 220px);
